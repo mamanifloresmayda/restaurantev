@@ -1,0 +1,460 @@
+<!doctype html>
+<html lang="es">
+<head>
+
+<title>Veterinaria La Orureña</title>
+
+<meta charset="utf-8"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"/>
+
+<link rel="stylesheet"
+href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"/>
+
+</head>
+
+<body>
+
+<!-- NAVBAR -->
+
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+<div class="container">
+
+<a class="navbar-brand" href="#">
+<i class="fas fa-utensils"></i> Veterinaria la Orureña
+</a>
+
+<button class="navbar-toggler" type="button"
+data-bs-toggle="collapse"
+data-bs-target="#navbarNav">
+
+<span class="navbar-toggler-icon"></span>
+
+</button>
+
+<div class="collapse navbar-collapse" id="navbarNav">
+
+<ul class="navbar-nav ms-auto">
+
+<li class="nav-item">
+<a class="nav-link" href="#Inicio">Inicio</a>
+</li>
+
+<li class="nav-item">
+<a class="nav-link" href="#Servicios">Servicios del día</a>
+</li>
+
+<li class="nav-item">
+<a class="nav-link" href="#Chefs">Chefs</a>
+</li>
+
+<li class="nav-item">
+<a class="nav-link" href="#Testimonio">Testimonio</a>
+</li>
+
+
+<li class="nav-item">
+<a class="nav-link" href="#Contactos">Contactos</a>
+</li>
+<li class="nav-item">
+<a class="nav-link" href="#Horario">Horario</a>
+</li>
+
+</ul>
+
+</div>
+</div>
+</nav>
+
+
+<!-- BANNER -->
+
+<section id="Inicio" class="container-fluid p-0">
+
+<div style="position:relative;
+background:url('images/image3.jpeg') center/cover no-repeat;
+height:400px;">
+
+<div style="position:absolute;
+top:50%;
+left:50%;
+transform:translate(-50%,-50%);
+text-align:center;
+color:white;">
+
+<h1>La Orureña</h1>
+
+<p>Veterinaria de los mejores sabores típicos</p>
+
+<a href="#Servicios" class="btn btn-primary">
+Ver Servicios
+</a>
+
+</div>
+</div>
+
+</section>
+
+
+<!-- BIENVENIDA -->
+
+<section class="container mt-4 text-center">
+
+<div class="bg-dark text-white p-4">
+
+<h2>¡Bienvenido al Veterinaria La Orureña!</h2>
+
+<p>Descubre una experiencia culinaria única</p>
+
+</div>
+
+</section>
+
+
+<style>
+
+/* SOLO afecta al menú */
+#Servicios .card-img-top{
+  height:220px;
+  object-fit:cover;
+}
+
+#Servicios .card{
+  height:100%;
+}
+
+#Servicios .card-body{
+  display:flex;
+  flex-direction:column;
+  justify-content:space-between;
+}
+
+</style>
+
+
+<!-- CHEFS -->
+
+<section id="Chefs" class="container mt-5 text-center">
+
+<h2>Nuestros Chefs</h2>
+
+<div class="row">
+
+<div class="col-md-4">
+
+<div class="card">
+
+<img src="images/jojos/img1.jpeg" class="card-img-top">
+
+<div class="card-body">
+
+<h5 class="card-title">Chef Juan</h5>
+
+<p class="card-text">El chef Juan K</p>
+
+<i class="fab fa-facebook me-2"></i>
+<i class="fab fa-instagram me-2"></i>
+<i class="fab fa-linkedin"></i>
+
+</div>
+</div>
+</div>
+
+
+<div class="col-md-4">
+
+<div class="card">
+
+<img src="images/jojos/img2.jpeg" class="card-img-top">
+
+<div class="card-body">
+
+<h5 class="card-title">Chef Sara</h5>
+
+<p class="card-text">La chef Sara</p>
+
+<i class="fab fa-facebook me-2"></i>
+<i class="fab fa-instagram me-2"></i>
+<i class="fab fa-linkedin"></i>
+
+</div>
+</div>
+</div>
+
+
+<div class="col-md-4">
+
+<div class="card">
+
+<img src="images/jojos/img3.jpeg" class="card-img-top">
+
+<div class="card-body">
+
+<h5 class="card-title">Chef Maria</h5>
+
+<p class="card-text">La chef Maria</p>
+
+<i class="fab fa-facebook me-2"></i>
+<i class="fab fa-instagram me-2"></i>
+<i class="fab fa-linkedin"></i>
+
+</div>
+</div>
+</div>
+
+</div>
+
+</section>
+
+
+<!-- TESTIMONIOS -->
+
+<section id="Testimonio" class="bg-light py-5">
+
+<div class="container">
+
+<h2 class="text-center mb-4">Testimonios</h2>
+
+<div class="row">
+
+<div class="col-md-6">
+
+<div class="card">
+
+<div class="card-body">
+
+<p>"Muy buena mascotas y excelente atención"</p>
+
+</div>
+
+<div class="card-footer text-muted">
+Oscar UH
+</div>
+
+</div>
+
+</div>
+
+
+<div class="col-md-6">
+
+<div class="card">
+
+<div class="card-body">
+
+<p>"El mejor veterinariae de mascotas típica"</p>
+
+</div>
+
+<div class="card-footer text-muted">
+Carlos M
+</div>
+
+</div>
+
+</div>
+
+</div>
+
+</div>
+
+</section>
+
+
+<!-- MENU -->
+
+<section id="Servicios" class="container mt-5">
+
+<h2 class="text-center">Servicios (Nuestra recomendación)</h2>
+
+<br>
+
+<div class="row row-cols-1 row-cols-md-4 g-4">
+
+
+<div class="col">
+
+<div class="card">
+
+<img src="images/jojos/img4.jpeg" class="card-img-top">
+
+<div class="card-body">
+
+<h5>Pique Macho</h5>
+
+<p class="small">
+Carne de res, salchichas, papas fritas,
+cebolla, tomate y huevo duro.
+</p>
+
+<p><strong>Precio:</strong> Bs 40</p>
+
+</div>
+</div>
+</div>
+
+
+<div class="col">
+
+<div class="card">
+
+<img src="images/jojos/img5.jpeg" class="card-img-top">
+
+<div class="card-body">
+
+<h5>Silpancho</h5>
+
+<p class="small">
+Carne empanizada, arroz, papas fritas,
+huevo frito y ensalada.
+</p>
+
+<p><strong>Precio:</strong> Bs 35</p>
+
+</div>
+</div>
+</div>
+
+
+<div class="col">
+
+<div class="card">
+
+<img src="images/jojos/img6.jpeg" class="card-img-top">
+
+<div class="card-body">
+
+<h5>Chicharrón</h5>
+
+<p class="small">
+Carne de cerdo frita con mote,
+chuño y llajua.
+</p>
+
+<p><strong>Precio:</strong> Bs 38</p>
+
+</div>
+</div>
+</div>
+
+
+<div class="col">
+
+<div class="card">
+
+<img src="images/jojos/img8.jpg" class="card-img-top">
+
+<div class="card-body">
+
+<h5>Charquekan</h5>
+
+<p class="small">
+Charque con mote, papa cocida
+y huevo duro.
+</p>
+
+<p><strong>Precio:</strong> Bs 32</p>
+
+</div>
+</div>
+</div>
+
+</div>
+
+</section>
+
+
+<!-- CONTACTOS -->
+
+<section id="Contactos" class="container mt-5">
+
+<h2>Contáctanos</h2>
+
+<p>Estamos aquí para servirle</p>
+
+<div class="row">
+
+<div class="col-md-6">
+
+<form>
+
+<div class="mb-3">
+
+<label class="form-label">Nombre</label>
+
+<input type="text"
+class="form-control"
+placeholder="Escribe tu nombre"
+required>
+
+</div>
+
+
+<div class="mb-3">
+
+<label class="form-label">Correo</label>
+
+<input type="email"
+class="form-control"
+placeholder="Escribe tu correo"
+required>
+
+</div>
+
+
+<div class="mb-3">
+
+<label class="form-label">Mensaje</label>
+
+<textarea class="form-control" rows="5"></textarea>
+
+</div>
+
+<button class="btn btn-primary">
+Enviar mensaje
+</button>
+
+</form>
+
+</div>
+
+</div>
+
+</section>
+
+
+<!-- HORARIOS -->
+
+<div id="Horario" class="text-center bg-light p-4 mt-5">
+
+<h3>Horario de atención</h3>
+
+<p><strong>Lunes a Viernes</strong></p>
+<p>11:00 am - 10:00 pm</p>
+
+<p><strong>Sábado</strong></p>
+<p>12:00 pm - 5:00 pm</p>
+
+<p><strong>Domingo</strong></p>
+<p>7:00 am - 2:00 pm</p>
+
+</div>
+
+
+<!-- FOOTER -->
+
+<footer class="bg-dark text-light text-center p-3">
+
+<p>
+© 2027 Veterinaria La Orureña
+Todos los derechos reservados
+</p>
+
+</footer>
+
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+
+</body>
+</html>
